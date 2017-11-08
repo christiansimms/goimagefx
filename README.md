@@ -37,3 +37,11 @@ npm run e2e
 npm test
 ```
 
+## Maintainers Notes
+
+To deploy latest version of website:
+
+``` bash
+npm run deploy
+```
+

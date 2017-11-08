@@ -1,7 +1,5 @@
 # Web app to add special effects to images
 
-# Web app to add special effects to images
-
 This project uses a few key libraries:
 
 - [Vue.js](https://vuejs.org/) - Progressive Web App framework

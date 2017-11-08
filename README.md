@@ -1,11 +1,21 @@
 # Web app to add special effects to images
 
-> A Vue.js project
+# Web app to add special effects to images
+
+This project uses a few key libraries:
+
+- [Vue.js](https://vuejs.org/) - Progressive Web App framework
+- [glfx.js](https://github.com/evanw/glfx.js) - WebGL image effects library
+
+This project was started using [vue-cli](https://github.com/vuejs/vue-cli)
+
 
 ## Build Setup
 
+If you want to run and test this locally:
+
 ``` bash
-# install dependencies
+# One-time: install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
@@ -27,4 +37,3 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

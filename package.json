@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Christian Simms <christian.simms@gmail.com>",
-  "homepage": "https://christiansimms.github.io/goimagefx",
+  "homepage": "https://github.com/christiansimms/goimagefx",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -13,7 +13,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js",
+    "deploy": "node build/post-process-for-gh-pages.js && node ./node_modules/vue-gh-pages/index.js",
     "clean": "rm -r dist/*"
   },
   "dependencies": {

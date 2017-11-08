@@ -1,4 +1,4 @@
-# goeditimage
+# Web app to add special effects to images
 
 > A Vue.js project
 

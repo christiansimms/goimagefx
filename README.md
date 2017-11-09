@@ -5,7 +5,10 @@ This project uses a few key libraries:
 - [Vue.js](https://vuejs.org/) - Progressive Web App framework
 - [glfx.js](https://github.com/evanw/glfx.js) - WebGL image effects library
 
-This project was started using [vue-cli](https://github.com/vuejs/vue-cli)
+This project was started using [vue-cli](https://github.com/vuejs/vue-cli).
+
+![see it in action](screenshots/goimagefx.gif)
+
 
 
 ## Build Setup

@@ -13,7 +13,7 @@
     </div>
 
     <div v-if="imageLevel <= 2">
-      <h1>Add an Effect:</h1>
+      <h1>Add {{levelAsWord}} Effect:</h1>
       <div class="container-fluid">
         <div class="row">
           <div v-for="compList in dynComps" class="col-lg-4">
@@ -104,6 +104,17 @@
     computed: {
       imageLevel: function () {
         return this.values.length
+      },
+      levelAsWord: function () {
+        if (this.values.length === 0) {
+          return 'First'
+        } else if (this.values.length === 1) {
+          return 'Second'
+        } else if (this.values.length === 2) {
+          return 'Third'
+        } else {
+          return 'UNKNOWN'
+        }
       }
     },
     methods: {

@@ -3,7 +3,7 @@ export const allComponents = [
   {name: 'hexPixelate', title: 'Hex Pixelate', min: 0, max: 30, interval: 0.1, default: 10},
   {name: 'ink', title: 'Ink', min: 0, max: 1, interval: 0.01, default: 0.25},
   {name: 'edgeWork', title: 'Edges', min: 0, max: 20, interval: 0.1, default: 5},
-  {name: 'dotScreen', title: 'Dot Screen', min: 1, max: 20, interval: 0.01, default: 3},
+  {name: 'dotScreen', title: 'Dot Screen', min: 1, max: 10, interval: 0.01, default: 3},
   {name: 'denoise', title: 'Smooth', min: 0, max: 50, interval: 1, default: 20},
   {name: 'brightness', title: 'Brightness', min: -1, max: 1, interval: 0.01, default: 0.1},
   {name: 'contrast', title: 'Contrast', min: -1, max: 1, interval: 0.01, default: 0.3}
